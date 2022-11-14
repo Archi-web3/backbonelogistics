@@ -8,7 +8,7 @@
 
 /*===== Colores =====*/
 :root{
-  --first-color: #263ef4;
+  --first-color: #000000;
   --second-color: #0E2431;
 }
 
@@ -17,13 +17,16 @@
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
+  /* text de skills */ 
   --deatil-font-size:.7rem;
   --normal-font-size: 0.938rem;
 }
 @media screen and (min-width: 768px){
   :root{
+    /* texte typing */
     --big-font-size: 1.5rem;
     --h2-font-size: 2rem;
+    /* text de about me */
     --normal-font-size: 1rem;
   }
 }
@@ -200,6 +203,7 @@ img{
 }
 .home__title{
   font-size: var(--big-font-size);
+  /*position du typing */ 
   margin-bottom: var(--mb-5);
 }
 .home__title-color{
@@ -229,7 +233,7 @@ img{
   color: var(--second-color);
 }
 .cursor{
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   display: inline-block;
   width: .2rem;
   background-color: var(--second-color);
@@ -475,6 +479,7 @@ img{
     margin-bottom: var(--mb-6);
   }
   .section-title::after{
+    /* longeur du trait de surlignage */ 
     width: 80px;
     top: 3rem;
   }
@@ -514,7 +519,7 @@ img{
   }
   .home__img{
     width: 457px;
-    bottom: 15%;
+    bottom: 65%;
   }
 
   .about__container, .skills__container{
